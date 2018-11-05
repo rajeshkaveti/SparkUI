@@ -10,4 +10,4 @@ The would take away the requirement for the developer to know the inner details 
 
 All the tasks could be potentially SPARK, Hadoop or simple python based on the requirement and the data size. 
 
-An API would be created to let the framework to know if the task is complete. Any errors within the tasks would be handled by Luigi.
+An API would be created to let the framework to know if the task is complete. Any errors within the tasks would be handled by Luigi.All the independent tasks can operate in parallel. This will be different from SPARK based scripts which when create would be sequential.
