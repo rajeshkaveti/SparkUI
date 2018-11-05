@@ -10,4 +10,4 @@ The code generation will happen via JINJA and will use the same model as is done
 
 All the tasks could be potentially SPARK, Hadoop or simple python based on the requirement and the data size. 
 
-An API would be created to let the framework to know if the task is complete. Any errors within the tasks would be handled by Luigi.All the independent tasks can operate in parallel. This will be different from SPARK based scripts which when create would be sequential.
+An API would be created to let the framework to know if the task is complete. Any errors within the tasks would be handled by Luigi.All independent tasks can operate in parallel. This will be different from a SPARK based scripts which when create would be sequential and the orchestration of standalone scripts have to be managed by some kind of scheduler.
